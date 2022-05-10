@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/incomingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/incoming_chat"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textLongMessage|textMultiLine"
+
+        android:maxWidth="270dp"
+        android:maxHeight="50dp"
+        android:padding="5dp"
+        android:text="kkkkkkkhhfbcsdvfffff"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/incomingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:00pm"
+        app:layout_constraintEnd_toEndOf="@+id/incomingMessage"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/incomingMessage"
+        app:layout_constraintTop_toBottomOf="@+id/incomingMessage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

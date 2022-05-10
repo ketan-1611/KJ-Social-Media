@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321680484004",
+    "project_id": "kj-social-media",
+    "storage_bucket": "kj-social-media.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321680484004:android:2c66a42a352c551a5be831",
+        "android_client_info": {
+          "package_name": "com.example.kjsocialmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321680484004-0kujgjk4ken3uks090mnuski3fcd2t42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZEUYBqfiIUR368RqW9E_6zAVLno5kW1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321680484004-0kujgjk4ken3uks090mnuski3fcd2t42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
